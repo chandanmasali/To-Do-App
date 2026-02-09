@@ -2,4 +2,8 @@ node_modules/
 package-lock.json
 .env
 vite.svg
-READDME.md
+README.md
+vite.config.js
+react.svg
+eslint.config.js
+
