@@ -1,0 +1,16 @@
+const mongoose = require("mongoose");
+
+// mongodb+srv://kirags123:8qPEa8KTKBEh2bss@cluster0.f3qlbuo.mongodb.net/todos
+// .env
+mongoose.connect("mongodb+srv://maskgunonly123_db_user:O6P1GzQJyUayCXLY@cluster0.sdsogvq.mongodb.net/ToDo")
+const todoSchema = mongoose.Schema({
+    title: String,
+    description: String,
+    completed: Boolean
+})
+
+const todo = mongoose.model('ToDo', todoSchema);
+
+module.exports = {
+    todo    
+}
